@@ -1,0 +1,22 @@
+.chat-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container {
+    height: 500px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-conversation {
+    background-color: white;
+    height: 468px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}

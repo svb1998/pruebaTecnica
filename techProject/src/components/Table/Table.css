@@ -1,0 +1,34 @@
+.table-container {
+    width: 100vw;
+    padding-inline: 3rem;
+}
+
+.table-header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.table-header-title {
+    font-size: large;
+    font-weight: 500;
+}
+
+.table-section {
+    background-color: blue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.table-section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-footer {
+    background-color: greenyellow;
+}
